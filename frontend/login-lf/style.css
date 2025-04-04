@@ -44,6 +44,7 @@ a:hover {
 	width: 60%;
 	height: 85%;
 }
+
 #info-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -55,6 +56,7 @@ a:hover {
 	font-weight: 500;
 	margin-left: 30px;
 }
+
 #input-container {
 	font-family: "roboto", "ariel";
 	font-weight: 500;
@@ -68,6 +70,7 @@ a:hover {
 	background-color: #ffffff;
 	box-shadow: 1px 3px 10px black;
 }
+
 #button-container {
 	font-family: "roboto", "ariel";
 	display: flex;
@@ -85,6 +88,7 @@ a:hover {
 	gap: 200px;
 	justify-content: flex-start;
 }
+
 .input-fields {
 	display: flex;
 	flex-direction: column;
@@ -105,11 +109,13 @@ a:hover {
 	background-color: #689343;
 	transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
+
 #submit-button:hover {
 	background-color: #f4dc23;
 	color: black;
 	transform: scale(1.02);
 }
+
 #submit-button:active {
 	transform: scale(0.98);
 }
@@ -131,34 +137,43 @@ input {
 	width: 230px;
 	transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
+
 input:hover {
 	transform: scale(1.01);
 	box-shadow: 1px 2px 5px black;
 }
+
 input:focus {
 	outline: none;
 	border: 2px solid rgb(29, 126, 223);
 	box-shadow: 1px 2px 5px black;
 }
+
 input:valid:not(:focus) {
 	border-color: green;
 }
+
 input:invalid {
 	border-color: red;
 }
+
 textarea:valid:not(:focus) {
 	border-color: green;
 }
+
 textarea:invalid {
 	border-color: red;
 }
+
 #specialhref {
 	color: #4ca932;
 }
+
 #contact-container {
 	margin-top: 33px;
 	margin-left: 50px;
 }
+
 #resizeable-desc {
 	resize: both;
 	overflow: auto;
@@ -166,9 +181,11 @@ textarea:invalid {
 	width: 500px;
 	height: 105px;
 }
+
 #area {
 	margin-bottom: 10px;
 }
+
 #first-name,
 #last-name,
 #emailid {
